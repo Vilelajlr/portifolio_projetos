@@ -8,7 +8,7 @@
     $para = "joseleandro2807@gmail.com";
     $assunto = "CONTATOS - PORTFOLIO"
 
-    $corpo = "Nome: ".$nome."\n"."Email: ".$email."\n"."Celular: ".cel."\n"."Mensagem: ".texto;
+    $corpo = "Nome: ".$nome."\n"."Email: ".$email."\n"."Celular: ".$cel."\n"."Mensagem: ".$texto;
 
     $cabeca = "From: joseleandro2807@gmail.com"."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion();
 
