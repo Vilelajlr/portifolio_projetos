@@ -69,6 +69,7 @@ header .menu-desktop  a:hover {
   transform: scale(1.1);
 }
 
+
 header nav ul {
   list-style-type: none;
 }
@@ -80,6 +81,25 @@ header .menu-desktop  ul li {
 
 .menu-mobile{
     display: none;
+}
+
+/* ESTILO BTN FLUTUANTE */
+.btn-flutuante{
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  z-index: 777777;
+  font-size: 35px;
+  background-color: transparent;
+  color: #f1f1f1;
+  border: 0;
+  border-radius: 50%;
+  
+}
+
+.btn-flutuante:hover{
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 
@@ -488,4 +508,8 @@ footer .line-footer p a:hover {
     display: none;
 }
 
+
+
+
 }
+

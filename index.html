@@ -19,7 +19,7 @@
 </head>
 <body>
 
-    <header>
+    <header id="voltar-topo">
         <div class="interface">
             <div class="logo">
                 <a href="#">
@@ -28,15 +28,15 @@
             </div><!--logo-->
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especia">Especialidades</a></li>
+                    <li><a href="#sobr">Sobre</a></li>
+                    <li><a href="#port">Projetos</a></li>
                 </ul>
             </nav><!--menu-desktop-->
 
             <div class="btn-contato">
-                <a href="#">
+                <a href="#form">
                     <button>Contato</button>
                 </a>
             </div><!--btn-contato-->
@@ -50,11 +50,11 @@
 
                 <nav>
                     <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Especialidades</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#especia">Especialidades</a></li>
+                        <li><a href="#sobr">Sobre</a></li>
+                        <li><a href="#port">Projetos</a></li>
+                        <li><a href="#fomr">Contato</a></li>
                     </ul>
                 </nav><!--menu-desktop-->
             </div><!--menu-mobile-->
@@ -63,15 +63,18 @@
     </header>
 
     <main>
-        <section class="topo-do-site">
+        
+        <abbr title="Voltar ao Topo"><a class="btn-flutuante" href="#voltar-topo"><i class="bi bi-arrow-up-circle"></i></a></abbr>
+
+        <section class="topo-do-site" id="inicio">
             <div class="interface">
                 <div class="flex">
-                    <div class="txt-topo-site">
+                    <div class="txt-topo-site" >
                         <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
                         <p>Criatividade e inovação andam lado a lado. Com uma combinação única de design impactante, funcionalidade intuitiva e otimização para resultados, estou pronto para criar a preença online dos seus sonhos</p>
 
                         <div class="btn-contato">
-                            <a href="#">
+                            <a href="#form">
                                 <button>Entre em Contato</button>
                             </a>
                         </div>
@@ -84,7 +87,7 @@
             </div> <!--Interface-->
         </section> <!--  topo-do-site -->
 
-        <section class="especialidades">
+        <section class="especialidades" id="especia">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
@@ -109,7 +112,7 @@
             </div><!--interface-->
         </section><!--especialidades-->
 
-        <section class="sobre">
+        <section class="sobre" id="sobr">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -136,7 +139,7 @@
             </div><!--interface-->
         </section><!--sobre-->
 
-        <section class="portfolio">
+        <section class="portfolio" id="port">
             <div class="interface">
                 <h2 class="titulo">MEU <span>PORTFOLIO.</span></h2>
                 <div class="flex">
@@ -153,7 +156,7 @@
             </div><!--interface-->
         </section><!--portifolio-->
 
-        <section class="formulario">
+        <section class="formulario" id="form">
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
                 

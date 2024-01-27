@@ -14,3 +14,13 @@ menu.addEventListener('click', ()=>{
 overlay.addEventListener('click', ()=>{
     menu.classList.remove('abrir-menu')
 })
+
+
+window.onscroll = function() {
+    var botao = document.querySelector('.btn-flutuante');
+    if (window.pageYOffset > 100) { // Se a altura de rolagem for maior que 100
+        botao.style.display = "block"; // Faz o botão flutuante aparecer
+    } else {
+        botao.style.display = "none"; // Caso contrário, faz o botão flutuante desaparecer
+    }
+};
